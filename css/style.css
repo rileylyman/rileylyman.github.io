@@ -451,7 +451,7 @@ table {
 }
 /* ==========================================================================Hero========================================================================== */
 .hero {
-	background: url('../img/portfolio/5-whale.jpg') right bottom no-repeat;
+	background: url('../img/transparent-bg-flipped.jpg') right bottom no-repeat;
 	background-size: contain;
 	padding:110px 0 100px 0;
 	height:auto;
