@@ -25,18 +25,16 @@
 	Global Styles
 ========================================================================== */
 a {
-	color: #E04343;
+	color: inherit;
 	-webkit-transition:all 0.5s;
 	-moz-transition:all 0.5s;
 	-o-transition:all 0.5s;
 	transition:all 0.5s;
-	border-bottom: 1px dashed;
 	outline:none!important;
 }
 a:hover,a:focus,a:active {
-	color:#0D0D0D;
-	text-decoration:none;
-	outline:none!important;
+	color: inherit;
+	all: unset;
 }
 p {
 	color:#8c9398;
@@ -116,7 +114,7 @@ a:active,a:hover {
 h1 {
 	font-size:2em;
 	margin:0.67em 0;
-	color:#353535;
+	color:#a6a6ed;
 }
 h2 {
 	font-size:1.5em;
@@ -293,9 +291,9 @@ table {
 }
 .dark-box {
 	background: #F3F5F8;
-	-webkit-box-shadow: 0px 3px 0px 0px #E04343;
-	-moz-box-shadow: 0px 3px 0px 0px #E04343;
-	box-shadow: 0px 3px 0px 0px #E04343;
+	-webkit-box-shadow: 0px 3px 0px 0px #d1d1f6;
+	-moz-box-shadow: 0px 3px 0px 0px #d1d1f6;
+	box-shadow: 0px 3px 0px 0px #d1d1f6;
 	padding:20px 0;
 }
 .dark-box:hover,.dark-box:focus {
@@ -329,7 +327,7 @@ table {
 	outline:none!important;
 }
 .menu-wrap a:hover,.menu-wrap a:focus {
-	color: #E04343;
+	color: #d1d1f6;
 }
 .content-wrap {
 	overflow-y:scroll;
@@ -369,7 +367,7 @@ table {
 	right:0.5em;
 	bottom:0.5em;
 	left:0.5em;
-	background: linear-gradient(#E04343 20%,rgba(0, 0, 0, 0) 20%,rgba(0, 0, 0, 0) 40%,#E04343 40%,#E04343 60%,rgba(0, 0, 0, 0) 60%,rgba(0, 0, 0, 0) 80%,#E04343 80%);
+	background: linear-gradient(#d1d1f6 20%,rgba(0, 0, 0, 0) 20%,rgba(0, 0, 0, 0) 40%,#d1d1f6 40%,#d1d1f6 60%,rgba(0, 0, 0, 0) 60%,rgba(0, 0, 0, 0) 80%,#d1d1f6 80%);
 	content:'';
 }
 .menu-button:hover {
@@ -424,7 +422,7 @@ table {
 	transform:translate3d(0,0,0);
 	-webkit-transition-delay:0s;
 	transition-delay:0s;
-	border-bottom: 1px solid #E04343;
+	border-bottom: 1px solid #d1d1f6;
 }
 .show-menu .icon-list a {
 	opacity:1;
@@ -453,7 +451,7 @@ table {
 }
 /* ==========================================================================Hero========================================================================== */
 .hero {
-	background: url('../img/header-bg.jpg') right bottom no-repeat;
+	background: url('../img/portfolio/5-whale.jpg') right bottom no-repeat;
 	background-size: contain;
 	padding:110px 0 100px 0;
 	height:auto;
@@ -476,7 +474,7 @@ table {
 	margin:0;
 	padding:0;
 	opacity:0.5;
-	color: #E04343;
+	color: #a6a6ed;
 	letter-spacing: 18px;
 	line-height: 50px;
 	text-transform: uppercase;
@@ -561,14 +559,14 @@ table {
 h1.arrow {
 	font-size: 16px;
 	text-transform:uppercase;
-	color:#353535;
+	color:#000000;
 	letter-spacing: 4px;
 	background:url('../img/h1-bg.png') no-repeat center bottom;
 	padding-bottom:30px;
 	font-weight: bold;
 }
 h1.arrow span {
-    color: #E04343;
+    color: #d1d1f6;
 }
 /* ==========================================================================About========================================================================== */
 .about-image {
@@ -579,14 +577,14 @@ h1.arrow span {
 	background-size:cover;
 }
 .color-bg {
-	background: #E04343;
+	background: #d1d1f6;
 }
 
 .color-bg a {
     color: #FFE800;
 }
 .color-bg h6, .color-bg p {
-    color: white;
+    color: #7f868c;
 }
 .color-bg h6::after{
 	border-color: #fff;
@@ -597,7 +595,7 @@ h1.arrow span {
 }
 .color-bg .weight-outline-btn:hover {
   background: #FFF;
-  color: #E04343;
+  color: #d1d1f6;
   border-color: rgba(0, 0, 0, 0);
 }
 .about-text {
@@ -612,7 +610,7 @@ h1.arrow span {
     color: #FFE800;
 }
 .color-bg h1.arrow {
-    color: #FFF;
+    color: #000000;
 }
 /* ==========================================================================Services========================================================================== */
 .services {
@@ -633,12 +631,12 @@ h1.arrow span {
 	margin-bottom:40px;
 	-webkit-transition:all .3s ease-out;
 	transition:all .3s ease-out;
-	border: 1px solid #E04343;
-	color: #E04343;
+	border: 1px solid #d1d1f6;
+	color: #d1d1f6;
 }
 .services .item:hover .icon {
-	background: #E04343;
-	border: 1px solid #E04343;
+	background: #d1d1f6;
+	border: 1px solid #d1d1f6;
 }
 .services .item [class*=fa] {
 	-webkit-transition:all .3s ease-out;
@@ -855,7 +853,7 @@ img.grayscale:hover {
 	background: #FFE800;
 	border: solid 1px #FFE800;
 	padding:20px;
-	color: #E04343;
+	color: #d1d1f6;
 	text-transform:uppercase;
 	letter-spacing:1px;
 	transition:all 0.5s ease;
@@ -866,11 +864,11 @@ img.grayscale:hover {
 .subscribe input[type=submit]:hover {
 	background: rgba(255, 232, 0, 0.9);
 	border: solid 1px #FFE800;
-	color: #E04343;
+	color: #d1d1f6;
 }
 /* ==========================================================================CTA========================================================================== */
 .spacer-cta {
-	background-color: #E04343;
+	background-color: #d1d1f6;
 	padding:70px 0;
 }
 .outline-btn {
@@ -883,8 +881,8 @@ img.grayscale:hover {
 	letter-spacing:1px;
 }
 .outline-btn:hover,.outline-btn:focus {
-	color: #E04343;
-	border: solid 1px #E04343;
+	color: #d1d1f6;
+	border: solid 1px #d1d1f6;
 	background: #FFE801;
 }
 .weight-outline-btn {
@@ -919,7 +917,7 @@ ul.social-buttons li:last-child {
 .social-btn {
 	width:40px;
 	height:40px;
-	background: #E04343;
+	background: #d1d1f6;
 	display:inline-block;
 	color:#fff;
 	font-size:17px;
@@ -928,7 +926,7 @@ ul.social-buttons li:last-child {
 }
 .social-btn:hover,.social-btn:focus {
 	background: rgba(255, 232, 0, 1);
-	color: #E04343;
+	color: #d1d1f6;
 }
 .social {
 	margin-top: 25px
@@ -940,7 +938,7 @@ ul.social-buttons li:last-child {
 	background: rgba(255, 232, 1, 0.9);
 	display:block;
 	margin:0 auto;
-	color: #E04343;
+	color: #d1d1f6;
 	font-size:18px;
 	line-height:52px;
 	text-align:center;
@@ -1007,7 +1005,7 @@ ul.social-buttons li:last-child {
 }
 
 .btn-send{
-	background:#E04343;
+	background:#d1d1f6;
 	color: white;
 	transition: all 0.4s;
 	border-radius: 0;
@@ -1016,7 +1014,7 @@ ul.social-buttons li:last-child {
 
 .btn-send:hover{
 	background: #FFE800;
-	color: #E04343
+	color: #d1d1f6
 }
 
 button,button:focus,button:hover,button:active {
@@ -1075,8 +1073,8 @@ ul.slides li {
 	font-weight: bold;
 }
 .flex-control-paging li a.flex-active {
-    background: #E04343;
-    border-color: #E04343;
+    background: #d1d1f6;
+    border-color: #d1d1f6;
 }
 
 .color-bg .flex-control-paging li a{
