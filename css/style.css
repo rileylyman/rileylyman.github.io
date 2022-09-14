@@ -575,6 +575,9 @@ table {
 	line-height: 95px;
 	text-transform: uppercase;
 }
+.hero .main-title {
+  margin: 5em 0;
+}
 .hero h1 span {
 	color:#a1a9b0;
 	/* display:inline-block; */
