@@ -564,7 +564,7 @@ table {
 	padding:110px 0 100px 0;
 	height:auto;
 	background-color: #FFFFFF;
-	/* min-height: 100vh; */
+	min-height: 100vh;
 	/* min-width: 100vw; */
 }
 .hero h1 {
