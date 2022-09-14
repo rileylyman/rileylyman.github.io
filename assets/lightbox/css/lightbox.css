@@ -117,11 +117,12 @@ body:after {
   -moz-transition: opacity 0.6s;
   -o-transition: opacity 0.6s;
   transition: opacity 0.6s;
+  opacity: 1;
 }
 
 .lb-nav a.lb-prev:hover {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
-  opacity: 1;
+  /* opacity: 1; */
 }
 
 .lb-nav a.lb-next {
@@ -135,6 +136,7 @@ body:after {
   -moz-transition: opacity 0.6s;
   -o-transition: opacity 0.6s;
   transition: opacity 0.6s;
+  opacity: 1;
 }
 
 .lb-nav a.lb-next:hover {
